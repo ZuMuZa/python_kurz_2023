@@ -26,3 +26,5 @@ if kod_soucastky in sklad:
         print(sklad)
 else:
     print("Bohužel tuto součástku na skladu nevedeme. Zkuste se domluvit s obsluhou na jejím zavedení na sklad.")
+
+# Děkuji za kontrolu a přeji hezký den :-)
