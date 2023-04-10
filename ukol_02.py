@@ -7,10 +7,11 @@ sklad = {
   "2N7002": 97,
   "BC547C": 10
 }
-
+#vstupní informace od zákazníka
 kod_soucastky = input ("Zadej kód součástky: ")
 pocet_kusu = int(input ("Zadej počet kusů, které potřebuješ: "))
 
+#kontrola stavu skladu a možnosti uspokojit poptávku zákazníka
 if kod_soucastky in sklad:
     print (f"{kod_soucastky} Máme na skladu v množství {sklad[kod_soucastky]} kusů.")
     pocet_na_skladu = sklad[kod_soucastky]
