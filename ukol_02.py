@@ -1,5 +1,5 @@
 
-#slovníky - ukol 02 - Python1 - Zuzka Musilová
+#Python1 - 2_hodina- (slovniky) - ukol 02 - Zuzka Musilová
 sklad = {
   "1N4148": 250,
   "BAV21": 54,
