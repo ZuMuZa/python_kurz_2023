@@ -49,3 +49,33 @@ teploty = [
 ]
 ranni_teploty = [teplota[0] for  teplota in teploty]
 print(ranni_teploty)
+
+
+# Mějme zadaný následující seznam
+
+cisla = [1.12, 4.51, 2.64, 13.1, 0.1]
+# Vytvořte seznam, který obsahuje
+
+krat_dva = [x*2 for x in cisla]
+print(krat_dva)
+# - každé z čísel ze seznamu cisla vynásobené dvěma,
+print(f"seznam s opacnym znamenkem: {[x * (-1) for x in cisla]}.")
+# - každé z čísel ze seznamu cisla s opačným znaménkem,
+print(f"cisla umocnena na druhou: {[x ** 2 for x in cisla]}.")
+# - každé z čísel ze seznamu cisla umocněné na druhou,
+print(f"cisla jako retezce: {[str(cislo) for cislo in cisla]}.")
+# - každé z čísel ze seznamu cisla jako řetězec.
+
+# Mějme zadaný následující seznam
+jmena = ["Roman", 'Jan', 'Miroslav', 'Petr', 'Gabriel']
+# Vytvořte seznam, který obsahuje
+print(f"Pocet pismen je: {[len(x) for x in jmena]}")
+# - počty písmen ve všech jménech,
+print(f"Vsechna jmena velkymi pismeny: {[jmeno.upper() for jmeno in jmena]}")
+# - všechna jména napsaná velkými písmeny,
+print(f"Zenska jmena: {[jmeno + 'a' for jmeno in jmena]}")
+# - všechna jména plus písmeno 'a' na konci (stanou se z nich tedy ženská jména),
+email = [jmeno.lower() + "@email.cz" for jmeno in jmena]
+print(f"emailove adresy podruhe: {email}")
+print(f"emailove adresy: {[jmeno.lower() + '@email.cz' for jmeno in jmena]}")
+# - všechna jména převedená na malá písmena s koncovkou '@email.cz'.
