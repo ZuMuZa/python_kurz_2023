@@ -16,9 +16,11 @@ for slosování in range(pocet_vyhercu):
 """Vypišme si čísla z nějakého rozsahu na základě jejich dělitelnosti dvěma čísly.
 Zkuste z nějakého rozsahu čísel vypsat čísla, která jsou dělitelná 3 i 4 současně.
 Zkuste z nějakého rozsahu čísel vypsat čísla, která jsou dělitelná 5 nebo 6. Stačí vypsat text: "Číslo je dělitelné 5 nebo 6." """
-print(13%)
+
 for x in range(50):
-    if x % 3== 0 and x
+    if x % 3 == 0 and x % 4 == 0:
+        print(f"cislo {x} je delitelne tremi i ctyrmi")
+# to samy pak pro pet a sest, akorat namisto and tam bude or...
 
 """3_ 
 Vraťte se k příkladu se zadáváním seznamu hostu na párty 
@@ -44,8 +46,8 @@ Prvočíslo je číslo, které je dělitelné beze zbytku pouze 2 čísly - 1 a 
 Například 5 je prvočíslo, protože je dělitelná pouze 1 a 5.
 Naopak 4 není prvočíslo, protože je dělitelná 1, 2 a 4."""
 
-cislo = int(input("Zadej cislo: "))
+#cislo = int(input("Zadej cislo: "))
 
-prvocislo
-for x in range(2, cislo):
-    if cislo %
+#prvocislo
+#for x in range(2, cislo):
+ #   if cislo % 1:
