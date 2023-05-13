@@ -28,13 +28,14 @@ Otestuj, že program nedovolí půjčit stejné auto dvakrát.
 """
 
 #ŘEŠENÍ:
+from dataclasses import dataclass
 
+@dataclass
 class Auto:
-    def __init__(self, registracni_znacka, typ_vozidla, najete_km, dostupnost): #True = volné, False = vypůjčené
-        self.registracni_znacka = registracni_znacka
-        self.typ_vozidla = typ_vozidla
-        self.najete_km = najete_km
-        self.dostupnost = dostupnost
+    registracni_znacka: int
+    typ_vozidla: str
+    najete_km: int
+    dostupnost: bool   #True = volné, False = vypůjčené
         
 
     def pujc_auto(self):
