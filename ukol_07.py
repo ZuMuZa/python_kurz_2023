@@ -1,4 +1,4 @@
-#Python1 - 5_hodina- (Třídy a dědičnost) - ukol 05 - Zuzka Musilová
+#Python1 - 7_hodina- (Třídy a dědičnost) - ukol 07 - Zuzka Musilová
 #ZADÁNÍ:
 
 """
