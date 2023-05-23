@@ -21,4 +21,4 @@ Matematika = Kniha("hlehle", "1", 300)
 
 print(Slovnik)
 Slovnik.sleva()
-print(Slovnik)    
+print(Slovnik)   
